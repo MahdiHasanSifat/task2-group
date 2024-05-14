@@ -1,0 +1,153 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.sub {
+  margin-top: 65px;
+  margin-bottom: 65px;
+  //   border: 1px solid red;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  //   align-items: center;
+  gap: 25px;
+}
+.lftpart {
+  display: flex;
+  flex-direction: column;
+  //   justify-content: center;
+  align-items: center;
+  gap: 7px;
+
+  .pic {
+    img {
+      width: 700px;
+      height: 400px;
+      object-fit: cover;
+    }
+  }
+
+  .heads {
+    display: flex;
+    h1 {
+      font-size: 22px;
+    }
+  }
+
+  .info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+
+    p {
+      font-size: 12px;
+    }
+    img {
+      width: 15px;
+      height: 15px;
+    }
+  }
+}
+.btn {
+  button {
+    margin-top: 25px;
+    margin-bottom: 15px;
+    border: 0;
+    padding: 5px 25px;
+    background-color: rgb(214, 21, 21);
+    color: white;
+    border-radius: 5px;
+  }
+}
+
+.para {
+  width: 650px;
+  p {
+    font-size: 14px;
+    text-align: center;
+  }
+}
+//left part end here
+
+.rghtpart {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  //   align-items: center;
+  gap: 15px;
+}
+.headd {
+  h2 {
+    font-size: 14px;
+    color: red;
+    // text-align: left;
+    border-bottom: 1px solid red;
+  }
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.picincard {
+  img {
+    width: 100px;
+    height: 70px;
+    object-fit: cover;
+  }
+}
+.picdetail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  //   align-items: center;
+  gap: 3px;
+
+  .detail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.infoss {
+  display: flex;
+  //   justify-content: center;
+  //   align-items: center;
+  gap: 5px;
+  img {
+    width: 15px;
+    height: 15px;
+  }
+  p {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 999px) {
+  .sub {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (max-width: 699px) {
+  .pic {
+    img {
+      width: 350px;
+      height: 200px;
+      object-fit: cover;
+    }
+  }
+}
